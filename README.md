@@ -3,7 +3,7 @@
 Welcome to Investwise, your personalized stock monitoring app designed to keep you informed about the performance of your selected stocks. With this app, you can effortlessly track the fluctuations of your favorite stocks in real-time, receiving timely notifications whenever they rise or fall by a specified percentage. 
 
 ## Architecture
-![alt text](architecture.png)
+![alt text](docs/architecture.png)
 
 ## Features
 
