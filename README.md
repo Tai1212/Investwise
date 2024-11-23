@@ -68,6 +68,3 @@ Feel free to explore and join Investwise!
 For more details, issues, or contributions, please check out our [GitHub repository]
 #(to - do: add github repository).
 
-## Demo
-
-Check out the [YouTube video](https://youtu.be/TBjLobCB_6k) for a demo.
