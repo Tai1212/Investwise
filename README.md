@@ -1,5 +1,15 @@
 # Investwise
 
+##Table of Contents
+*[General Info](#general-info)
+*[Architecture](#architecture
+*[Features](#features)
+*[User Interfaces](#user-interfaces)
+*[Tecnologies](#technologies)
+*[Setup](#setup)
+*[Project Structure](#project-structure)
+
+##General Info
 Welcome to Investwise, your personalized stock monitoring app designed to keep you informed about the performance of your selected stocks. With this app, you can effortlessly track the fluctuations of your favorite stocks in real-time, receiving timely notifications whenever they rise or fall by a specified percentage. 
 
 ## Architecture
@@ -32,10 +42,12 @@ Welcome to Investwise, your personalized stock monitoring app designed to keep y
 - The user can connect to telegram to access their Investwise account by typing '/start' and inputting the secret passcode
 - This is an easy way for the user to connect to the app easily and on the go.
 
-## 2. Graphic UI:
+### 2. Graphic UI:
 - The user can connect to the graphic user interface to interact with the investwise account. 
 
-## Getting Started
+## Technologies
+
+## Setup
 
 ### Building the Application
 
@@ -58,9 +70,6 @@ Welcome to Investwise, your personalized stock monitoring app designed to keep y
    ```bash
    docker-compose -f .\docker-compose.yml up -d
    ```
-
-## Accessing the Application
-
 Once the Docker container is up and running, access Investwise's website by visiting the following link: #TODO: add proper GUI link# in your web browser.
 
 Feel free to explore and join Investwise!
@@ -68,3 +77,4 @@ Feel free to explore and join Investwise!
 For more details, issues, or contributions, please check out our [GitHub repository]
 #(to - do: add github repository).
 
+## Project Structure
