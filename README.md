@@ -2,7 +2,7 @@
 
 ##Table of Contents
 *[General Info](#general-info)
-*[Architecture](#architecture
+*[Architecture](#architecture)
 *[Features](#features)
 *[User Interfaces](#user-interfaces)
 *[Tecnologies](#technologies)
