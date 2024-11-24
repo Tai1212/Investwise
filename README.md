@@ -9,8 +9,20 @@
 * [Setup](#setup)
 * [Project Structure](#project-structure)
 
-##General Info
-Welcome to Investwise, your personalized stock monitoring app designed to keep you informed about the performance of your selected stocks. With this app, you can effortlessly track the fluctuations of your favorite stocks in real-time, receiving timely notifications whenever they rise or fall by a specified percentage. 
+## General Info
+Investwise is a personalized stock monitoring app designed to help users stay informed about the performance of their selected stocks. The app allows users to effortlessly track stock fluctuations in real-time and set custom alerts for significant changes in stock prices. Whether you're monitoring long-term investments or responding to short-term market movements, Investwise ensures you're always up-to-date with the latest information. 
+
+This project implements a microservices-based stock market monitoring platform. The platform is built with a focus on scalability and user personalization, offering features such as:
+* Real-time Stock Monitoring: Leverages the Alpha Vantage API to provide accurate and timely stock data.
+* Custom Alerts: Users can set personalized notifications to track stock price changes by a specified percentage.
+* Interactive User Interface: Integrates the Telegram Bot API to deliver a dynamic and user-friendly experience.
+
+The application is built using a full-stack microservices architecture, with three core services:
+* Frontend: Manages the user interface and interactions.
+* Backend: Handles stock monitoring, user management, and notifications, powered by a dedicated monitoring thread for daily stock updates.
+* Database: Provides a robust and scalable data storage solution for user accounts and stock tracking preferences.
+
+To ensure seamless deployment and scalability, all services are containerized using Docker. This setup makes Investwise a powerful tool for both novice and experienced investors to monitor and optimize their investment strategies efficiently.
 
 ## Architecture
 ![alt text](docs/architecture.png)
