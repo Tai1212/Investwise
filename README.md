@@ -54,7 +54,7 @@ To ensure seamless deployment and scalability, all services are containerized us
 - The user can connect to telegram to access their Investwise account by typing '/start' and inputting the secret passcode
 - This is an easy way for the user to connect to the app easily and on the go.
 - ### Sample Telegram Bot Communication:
-  
+  ![alt text](docs/Telegram Screenshot 1.png)
 
 ### 2. Graphic UI:
 - The user can connect to the graphic user interface to interact with the investwise account. 
