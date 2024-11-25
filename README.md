@@ -15,7 +15,7 @@ Investwise is a personalized stock monitoring app designed to help users stay in
 This project implements a microservices-based stock market monitoring platform. The platform is built with a focus on scalability and user personalization, offering features such as:
 * Real-time Stock Monitoring: Leverages the Alpha Vantage API to provide accurate and timely stock data.
 * Custom Alerts: Users can set personalized notifications to track stock price changes by a specified percentage.
-* Interactive User Interface: Integrates the Telegram Bot API to deliver a dynamic and user-friendly experience.
+* Interactive User Interface: Integrates the Telegram Bot API to deliver a dynamic and user-friendly experience in addition to the apps website. 
 
 The application is built using a full-stack microservices architecture, with three core services:
 * Frontend: Manages the user interface and interactions.
@@ -58,7 +58,13 @@ To ensure seamless deployment and scalability, all services are containerized us
 - The user can connect to the graphic user interface to interact with the investwise account. 
 
 ## Technologies
-
+* fastapi==0.109.0
+* pydantic==2.5.3
+* uvicorn==0.27.0
+* pymongo==4.6.1
+* streamlit==1.32.2
+* pyTelegramBotAPI
+  
 ## Setup
 
 ### Building the Application
