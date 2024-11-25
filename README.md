@@ -1,6 +1,6 @@
 # Investwise
 
-##Table of Contents
+## Table of Contents
 * [General Info](#general-info)
 * [Architecture](#architecture)
 * [Features](#features)
