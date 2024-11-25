@@ -8,7 +8,7 @@
 * [Tecnologies](#technologies)
 * [Setup](#setup)
 * [Project Structure](#project-structure)
-
+ 
 ## General Info
 Investwise is a personalized stock monitoring app designed to help users stay informed about the performance of their selected stocks. The app allows users to effortlessly track stock fluctuations in real-time and set custom alerts for significant changes in stock prices. Whether you're monitoring long-term investments or responding to short-term market movements, Investwise ensures you're always up-to-date with the latest information. 
 
