@@ -25,7 +25,9 @@ The application is built using a full-stack microservices architecture, with thr
 To ensure seamless deployment and scalability, all services are containerized using Docker. This setup makes Investwise a powerful tool for both novice and experienced investors to monitor and optimize their investment strategies efficiently.
 
 ## Architecture
-![alt text](docs/architecture.png)
+![alt text](docs/telegram1.png)
+![alt text](docs/telegram2.png)
+![alt text](docs/telegram3.png)
 
 ## Features
 
