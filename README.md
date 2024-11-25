@@ -25,9 +25,7 @@ The application is built using a full-stack microservices architecture, with thr
 To ensure seamless deployment and scalability, all services are containerized using Docker. This setup makes Investwise a powerful tool for both novice and experienced investors to monitor and optimize their investment strategies efficiently.
 
 ## Architecture
-![alt text](docs/telegram1.png)
-![alt text](docs/telegram2.png)
-![alt text](docs/telegram3.png)
+![alt text](docs/architecture.png)
 
 ## Features
 
@@ -56,7 +54,9 @@ To ensure seamless deployment and scalability, all services are containerized us
 - The user can connect to telegram to access their Investwise account by typing '/start' and inputting the secret passcode
 - This is an easy way for the user to connect to the app easily and on the go.
 - ### Sample Telegram Bot Communication:
-  ![alt text](docs/Telegram Screenshot 1.png)
+  ![alt text](docs/telegram1.png)
+  ![alt text](docs/telegram2.png)
+  ![alt text](docs/telegram3.png)
 
 ### 2. Graphic UI:
 - The user can connect to the graphic user interface to interact with the investwise account. 
