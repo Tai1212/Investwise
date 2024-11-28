@@ -93,11 +93,9 @@ To ensure seamless deployment and scalability, all services are containerized us
    ```bash
    docker-compose -f .\docker-compose.yml up -d
    ```
-Once the Docker container is up and running, access Investwise's website by visiting the following link: #TODO: add proper GUI link# in your web browser.
+Once the Docker container is up and running, access Investwise's website by visiting the following link: http://172.18.0.4:8501 or by using the Telegram App.
 
 Feel free to explore and join Investwise!
 
-For more details, issues, or contributions, please check out our [GitHub repository]
-#(to - do: add github repository).
+For more details, issues, or contributions, please check out our [GitHub repository](https://github.com/Tai1212/Investwise.git).
 
-## Project Structure
