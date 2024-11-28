@@ -76,7 +76,7 @@ To ensure seamless deployment and scalability, all services are containerized us
 
 1. **Clone the Repository:**
    ```bash
-   #to do: add repository name in github
+   git clone https://github.com/Tai1212/Investwise.git
    ```
 
 2. **Install Docker Desktop:**
