@@ -36,13 +36,13 @@ To ensure seamless deployment and scalability, all services are containerized us
 ### 2. Registration:
 - New users can create an account by inputting an email and passsword. 
 
-### 3. Inserting or Updating Stock Preferences:
+### 3. Stock Notification Subscription:
 - **Insert New Stock:** Insert any stock, the price you purchased it, and your prefered percentage change.
 - **Update existing Stock:** If the stock symbol already exists, we will update the database with the new preferences. 
 
-### 4. Target Met Notification:
-- When at least one of the users stocks met their desired target change, an email will be sent to the email address. 
-- After the notification is sent, the specific stock's target that was met will be automatically adjusted by 10% in the database.
+- **Target Met Notification:**
+   * When at least one of the users stocks met their desired target change, an email will be sent to the email address. 
+   * After the notification is sent, the specific stock's target that was met will be automatically adjusted by 10% in the database.
 
 ### 5. View Stocks:
 - The user can request to view their current stock portfolio. 
