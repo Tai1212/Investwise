@@ -12,7 +12,7 @@
 ## General Info
 Investwise is a personalized stock monitoring app designed to help users stay informed about the performance of their selected stocks. The app allows users to effortlessly track stock fluctuations in real-time and set custom alerts for significant changes in stock prices. Whether you're monitoring long-term investments or responding to short-term market movements, Investwise ensures you're always up-to-date with the latest information. 
 
-This project implements a microservices-based stock market monitoring platform. The platform is built with a focus on scalability and user personalization, offering features such as:
+This project implements a microservices-based stock market monitoring platform. The platform is built with user personalization, offering features such as:
 * Real-time Stock Monitoring: Leverages the Alpha Vantage API to provide accurate and timely stock data.
 * Custom Alerts: Users can set personalized notifications to track stock price changes by a specified percentage.
 * Interactive User Interface: Integrates the Telegram Bot API to deliver a dynamic and user-friendly experience in addition to the apps website. 
