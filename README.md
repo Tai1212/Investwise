@@ -34,7 +34,7 @@ To ensure seamless deployment and scalability, all services are containerized us
 - Non existing users trying to log in will be notified that their credentials are invalid.
 
 ### 2. Registration:
-- New users can create an account by inputting an email and passsword. 
+- New users can create an account by inputting an email and password. 
 
 ### 3. Stock Notification Subscription:
 - **Insert New Stock:** Insert any stock, the price you purchased it, and your prefered percentage change.
