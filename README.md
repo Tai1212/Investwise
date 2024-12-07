@@ -44,9 +44,9 @@ To ensure seamless deployment and scalability, all services are containerized us
    * When at least one of the users stocks met their desired target change, an email will be sent to the email address. 
    * After the notification is sent, the specific stock's target that was met will be automatically adjusted by 10% in the database.
 
-### 5. View Stocks:
-- The user can request to view their current stock portfolio. 
-- The last checked stock price will be shown in addition to the stock symbol, user percentage preferences, and the user's purchase price of the stock.
+- **View Stocks:**
+   * The user can request to view their current stock portfolio. 
+   * The last checked stock price will be shown in addition to the stock symbol, user percentage preferences, and the user's purchase price of the stock.
 
 ## User Interfaces
 
