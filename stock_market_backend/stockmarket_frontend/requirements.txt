@@ -1,0 +1,4 @@
+streamlit==1.32.2
+httpx==0.26.0
+secure-smtplib
+pyTelegramBotAPI

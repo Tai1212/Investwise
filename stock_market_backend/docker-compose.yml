@@ -1,0 +1,40 @@
+#version: '3'
+
+services:
+  mongodb:
+    build:
+      context: ./stockmarket_database
+    image: mongo
+    container_name: mongo-example
+    networks:
+      - my_network1
+    ports:
+      - "27017:27017"
+
+  backend:
+    build: 
+      context: ./stockmarket_backend
+    image: backend_image
+    container_name: backend_container
+    networks:
+      - my_network1
+    ports:
+      - "8001:8001"
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: ./stockmarket_frontend
+    image: frontend_image
+    container_name: frontend_container
+    networks:
+      - my_network1
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mongodb
+      - backend
+ 
+networks:
+  my_network1:
