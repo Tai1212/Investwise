@@ -85,7 +85,6 @@ To ensure seamless deployment and scalability, all services are containerized us
 3. **Navigate to the cloned directory:**
     ```bash
     cd investwise
-    cd .\stock_market_app_final\
     cd .\stock_market_backend\
    ```
 
